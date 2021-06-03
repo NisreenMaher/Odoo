@@ -15,7 +15,7 @@ export default function workflow() {
   return (
     <div
       className="mt-20 mb-20 pt-20 text-center mx-auto bg-right bg-no-repeat"
-      style={{ backgroundImage: "url(,/illustration-section-02.svg)" }}
+      style={{ backgroundImage: "url(./illustration-section-02.svg)" }}
     >
       <Textcomp
         texth1="Workflow that just works"
