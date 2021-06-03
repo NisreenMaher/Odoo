@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Navbar from "./component/Navbar";
+import MainContent from "./component/sections/maincontent";
+import Robust from "./component/sections/robust";
+import Workflow from "./component/sections/workflow";
+import CustomerTestimionals from "./component/sections/Customertestimonials";
+import Contact from "./component/sections/contact";
+import Footer from "./component/footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className=" bgill"
+      style={{ backgroundImage: "url(/illustration-section-01.svg)" }}
+    >
+      <div className="max-w-7xl  mx-auto px-4 sm:px-8 lg:px-24 ">
+        <Navbar />
+        <MainContent />
+        <div className="grid grid-cols-1 divide-y divide-gray divide-opacity-25 ">
+          <Robust />
+
+          <Workflow />
+          <CustomerTestimionals />
+        </div>
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
