@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       className=" bgill"
-      style={{ backgroundImage: "url(/illustration-section-01.svg)" }}
+      style={{ backgroundImage: "url(./illustration-section-01.svg)" }}
     >
       <div className="max-w-7xl  mx-auto px-4 sm:px-8 lg:px-24 ">
         <Navbar />

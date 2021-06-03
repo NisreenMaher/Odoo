@@ -47,7 +47,7 @@ export default function Maincontent() {
           >
             <img
               class="mx-auto"
-              src="bgvideo.png"
+              src="./bgvideo.png"
               width={896}
               height={504}
               onClick={() => setOpen(true)}
