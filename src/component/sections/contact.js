@@ -13,7 +13,7 @@ export default function Contact() {
       className=" bg-no-repeat bg-right-bottom md:inline-flex bg-primary-500
       text-center md:text-left 
     my-16 font-semibold text-white w-full md:px-16 py-12 px-2 sm:text-3xl text-2xl"
-      style={{ backgroundImage: "url(/cta-illustration.svg)" }}
+      style={{ backgroundImage: "url(./cta-illustration.svg)" }}
     >
       <h1 className="mb-8 ">For previewing layouts and visual?</h1>
       <form onSubmit={handleSubmit} className=" ml-auto border-transparent">
